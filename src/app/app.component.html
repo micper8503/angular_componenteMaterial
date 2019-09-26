@@ -1,1 +1,40 @@
-<router-outlet></router-outlet>
+<mat-toolbar color="primary">
+        Pagina Angular Material
+ </mat-toolbar> 
+
+ <main>
+    <mat-card>        
+        <form action="">
+            <mat-form-field>
+                    <input type ="text" matInput placeholder="title" #title>
+            </mat-form-field>
+            <mat-form-field>
+                    <input type ="text" matInput placeholder="URL"  #url>
+            </mat-form-field>
+            <button mat-button mat-flat-button color="primary" style="display:block; width: 30%">
+                Save
+            </button>
+
+            <ng-template let-data>
+                    Hello, {{data.name}}
+                  </ng-template>
+
+
+                  
+        </form>
+    </mat-card>
+</main>
+
+
+<br>
+<div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Michael Andres<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perez Peña
+    
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button> Click!</button>
+</div>
+
+
+
+
